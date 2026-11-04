@@ -1,0 +1,75 @@
+
+package com.Vehicle.VehicleService.center.dto;
+
+public class VehicleDTO {
+
+    private Long vehicleId;
+    private String vehicleNumber;
+    private String brand;
+    private String model;
+    private String vehicleType;
+    private Long customerId;
+
+    public VehicleDTO() {
+    }
+
+    public VehicleDTO(Long vehicleId, String vehicleNumber,
+            String brand, String model, String vehicleType,
+            Long customerId) {
+
+        this.vehicleId = vehicleId;
+        this.vehicleNumber = vehicleNumber;
+        this.brand = brand;
+        this.model = model;
+        this.vehicleType = vehicleType;
+        this.customerId = customerId;
+    }
+
+    public Long getVehicleId() {
+        return vehicleId;
+    }
+
+    public void setVehicleId(Long vehicleId) {
+        this.vehicleId = vehicleId;
+    }
+
+    public String getVehicleNumber() {
+        return vehicleNumber;
+    }
+
+    public void setVehicleNumber(String vehicleNumber) {
+        this.vehicleNumber = vehicleNumber;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public String getVehicleType() {
+        return vehicleType;
+    }
+
+    public void setVehicleType(String vehicleType) {
+        this.vehicleType = vehicleType;
+    }
+
+    public Long getCustomerId() {
+        return customerId;
+    }
+
+    public void setCustomerId(Long customerId) {
+        this.customerId = customerId;
+    }
+}
